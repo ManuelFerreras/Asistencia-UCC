@@ -1,0 +1,51 @@
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: #007bff64;
+  cursor: pointer;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.button:disabled {
+  background: #007bff64;
+  cursor: not-allowed;
+}
